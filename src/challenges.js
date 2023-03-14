@@ -48,7 +48,21 @@ function catAndMouse(mouse, cat1, cat2) {
   }
 }
 // Desafio 8 - Crie a função fizzBuzz
-
+function fizzBuzz(arr) {
+  let fbg = [];
+  for (let i = 0; i < arr.length; i++) {
+    if (arr[i] % 15 === 0) {
+      fbg.push('fizzBuzz');
+    } else if (arr[i] % 3 === 0) {
+      fbg.push('fizz');
+    } else if (arr[i] % 5 === 0) {
+      fbg.push('buzz');
+    } else {
+      fbg.push('bug!');
+    }
+  }
+  return fbg;
+}
 // Desafio 9 - Crie a função encode e a função decode
 
 // Desafio 10 - Crie a função techList
