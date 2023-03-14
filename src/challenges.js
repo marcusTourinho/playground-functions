@@ -80,7 +80,22 @@ function decode(frase) {
   return frase;
 }
 // Desafio 10 - Crie a função techList
+function techList(arr, name) {
+  if (arr.length === 0) {
+    return arr;
+  }
 
+  let arrResult = [];
+  arr.sort();
+  for (let key of arr) {
+    let objResult = {
+      tech: key,
+      name: `${name}`,
+    };
+    arrResult.push(objResult);
+  }
+  return arrResult;
+}
 // Não modifique essas linhas
 module.exports = {
   calcTriangleArea: typeof calcTriangleArea === 'function' ? calcTriangleArea : (() => {}),
