@@ -3,7 +3,7 @@ const compareTrue = (paramA, paramB) => (paramA && paramB ? true : false);
 // Desafio 2 - Crie a função splitSentence
 const splitSentence = str => (str.split(' '));
 // Desafio 3 - Crie a função concatName
-
+const concatName = arr => (arr[arr.length - 1].concat(', ', arr[0]));
 // Desafio 4 - Crie a função footballPoints
 
 // Desafio 5 - Crie a função highestCount
