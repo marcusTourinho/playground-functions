@@ -1,7 +1,7 @@
 // Desafio 1 - Crie a função compareTrue
-
+const compareTrue = (paramA, paramB) => (paramA && paramB ? true : false);
 // Desafio 2 - Crie a função splitSentence
-
+const splitSentence = str => (str.split(' '));
 // Desafio 3 - Crie a função concatName
 
 // Desafio 4 - Crie a função footballPoints
